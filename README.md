@@ -10,5 +10,6 @@ docker run -itd --name ollama_1.0 -v /home/db21051/Desktop/docker_workspace:/roo
 flatpak run io.podman_desktop.PodmanDesktop
 # os.environ["LANGCHAIN_API_KEY"]="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"
 # os.environ["TAVILY_API_KEY"] = "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"
-docker compose --profile gpu-nvidia up
+sudo ntfsfix -d -b /dev/sda1
+docker compose --profile gpu-nvidia up  
 </code>
