@@ -30,34 +30,42 @@ DROP TABLE messages, users CASCADE;
 </code>
 
 <code>
+- strengthen pipes (start with Turkish)
+---
+- draw the current flow components
 - message input field not focused when new chat button is clicked
+- check if stop generation stops ollama
+- author all codes
+---
+- regenerate always goes to the same function (might disable)
+- regenerate moves bottom message(?)
+- optional feedback lagy when too much message(?)
+- improve language detection
+- improve profanity detection
 - limit input fields for admin(?)
-- maybe reverse date sort message history
-- make renew button work Turkish work
-- make a load test, add timer for waiting for response(?)
-- long names tooltip addition
-- when it took too long to take response it bugged(?)
+- make a load test(?)
 - allow access form same local network
 - check for "sisme" when message etc. too much
-- optional feedback lagy when too much message(?)
-- good suggestion when new chat
-- launching ideas moves bottom message(?)
-- when new chat comes, does not scroll down(?)
-- add regenerated_date or flag
+- better suggestion when new chat
+- add regenerated_date or flag(?)
 - categorize former sessions with tags(?)
 - give him a voice(?)
 - adjust mobile use(?)
-- add right panel for anything really(?)
 - add check mechanisms like unit tests(?)
-- production: remove not required (e.g. openwebui)
 - only limited conversation history issue(?)
 - if refreshed on user page, stay there(?)
 - if there is too many message the user detail opening might be lagy(?s)
-- test overall system(?)
-- check if stop generation stops ollama
 - make streaming(?)
-- if only single world malicious input, the history brokes visually
 - add ability to remove messages or session to admin for all users(?)
+- export session to .json
+- translation buttons(?)
+- rethink the button for Turkish
+- if sessionId is empty somehow, session bugs
+- transitions check (e.g. left panel collapse)
+- timeouts are 30 seconds, change them if require
+- when error occured, nothing displayed on chat(?)
+- add tool tips(?)
+- special char.s (e.g. \n) brokes utility json request
 </code>
 
 <code>
