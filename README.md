@@ -32,11 +32,13 @@ DROP TABLE messages, users CASCADE;
 <code>
 - strengthen pipes (start with Turkish)
 ---
-- draw the current flow components
 - message input field not focused when new chat button is clicked
 - check if stop generation stops ollama
 - author all codes
 ---
+- add personal info memory system
+- session share
+- show think portion button
 - regenerate always goes to the same function (might disable)
 - regenerate moves bottom message(?)
 - optional feedback lagy when too much message(?)
