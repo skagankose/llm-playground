@@ -1,0 +1,18 @@
+import scipy.io
+
+# Path to the .mat file
+file_path = r'C:\Users\akif.ahrazoglu\Desktop\Suha\data_all_stages.mat'
+
+# Load the .mat file
+try:
+    mat_data = scipy.io.loadmat(file_path)
+    
+    # Display the keys of the loaded data to see the variable names
+    print("Variables in the .mat file:", mat_data.keys())
+    
+    # Iterate over each key and print the corresponding data
+    for key in mat_data.keys():
+        if key not in ['__header__', '__version__', '__globals__']:  # Exclude meta keys
+            print(f"\nData for '{key}':\n", mat_data[key])
+except Exception as e:
+    print(f"An error occurred while reading the file: {e}")
