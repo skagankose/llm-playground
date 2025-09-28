@@ -1,4 +1,6 @@
-## References (Not README)
+This repo is my sandbox for LLMs and generative AI—an experimental playground where I try ideas fast and break things even faster. You’ll find small scripts and notebooks, quick proofs-of-concept, and code snippets ranging from “works great” to “left here as a reminder of what not to do.” Expect rough edges, missing tests, and occasional breaking changes as I iterate. Use anything at your own risk, pin dependencies where possible, and read the comments for context and references.
+
+## References (for myself)
 <code>
 docker run --name kk_container -p 8888:8888 -v /home/db21051/Desktop/docker_workspace:/workspace/ -it --gpus all e087 bash
 jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
