@@ -12,8 +12,8 @@ docker run -itd --name ollama_1.0 -v /home/db21051/Desktop/docker_workspace:/roo
 docker run -it -d -p 8888:8888 --name generic_python -v /home/db21051/Desktop/repositories/llm_playground/sandbox/:/home/sandbox/ --gpus all cbcc
 podman run -it -d -p 8888:8888 --name generic_python -v /home/db21051/Desktop/repositories/llm_playground/sandbox/:/home/sandbox/ --device nvidia.com/gpu=all cbcc
 flatpak run io.podman_desktop.PodmanDesktop
-# os.environ["LANGCHAIN_API_KEY"]="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"
-# os.environ["TAVILY_API_KEY"] = "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"
+# os.environ["LANGCHAIN_API_KEY"]=""
+# os.environ["TAVILY_API_KEY"] = ""
 sudo ntfsfix -d -b /dev/sda1
 docker compose --profile gpu-nvidia up  
 </code>
